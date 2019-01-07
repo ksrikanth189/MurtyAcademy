@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:background="@drawable/card_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/quation_name_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/mar_5"
+            android:textSize="@dimen/txt_16"
+            android:paddingLeft="@dimen/mar_5"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:gravity="start|center"
+            android:textAllCaps="true"
+            android:text="aaaaaaaaaaa"
+            android:textColor="@color/colorAccent"/>
+
+            <LinearLayout
+                android:id="@+id/a_ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/mar_5"
+                android:background="@drawable/rect_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center"
+                    android:text="A"
+                    android:layout_margin="@dimen/mar_5"
+                    android:textAllCaps="true"
+                    android:textColor="@color/textBlack"
+                    android:textSize="@dimen/txt_16"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ans_a_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_16"
+                    android:textStyle="bold"
+                    android:layout_margin="@dimen/mar_5"
+                    android:gravity="start|center"
+                    android:textAllCaps="true"
+                    android:paddingLeft="@dimen/mar_10"
+                    android:text="ddddddddbbddd"
+                    android:textColor="@color/secondaryColor"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/b_ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="@dimen/mar_5"
+                android:background="@drawable/rect_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center"
+                    android:text="B"
+                    android:layout_margin="@dimen/mar_5"
+                    android:textAllCaps="true"
+                    android:textColor="@color/textBlack"
+                    android:textSize="@dimen/txt_16"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ans_b_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_16"
+                    android:textStyle="bold"
+                    android:gravity="start|center"
+                    android:layout_margin="@dimen/mar_5"
+                    android:paddingLeft="@dimen/mar_10"
+                    android:textAllCaps="true"
+                    android:text="bbbbbbbbbbnnnn"
+                    android:textColor="@color/secondaryColor"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/c_ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/mar_5"
+                android:background="@drawable/rect_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center"
+                    android:text="C"
+                    android:textAllCaps="true"
+                    android:layout_margin="@dimen/mar_5"
+                    android:textColor="@color/textBlack"
+                    android:textSize="@dimen/txt_16"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ans_c_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_16"
+                    android:textStyle="bold"
+                    android:layout_margin="@dimen/mar_5"
+                    android:gravity="start|center"
+                    android:paddingLeft="@dimen/mar_10"                    android:textAllCaps="true"
+                    android:text="ddddddddbbddd"
+                    android:textColor="@color/secondaryColor"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/d_ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/mar_5"
+                android:background="@drawable/rect_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center"
+                    android:text="D"
+                    android:textAllCaps="true"
+                    android:layout_margin="@dimen/mar_5"
+                    android:textColor="@color/textBlack"
+                    android:textSize="@dimen/txt_16"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ans_d_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_16"
+                    android:textStyle="bold"
+                    android:layout_margin="@dimen/mar_5"
+                    android:gravity="start|center"
+                    android:paddingLeft="@dimen/mar_10"                    android:textAllCaps="true"
+                    android:text="bbbbbbbbbbnnnn"
+                    android:textColor="@color/secondaryColor"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/e_ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/mar_5"
+                android:background="@drawable/rect_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center"
+                    android:text="E"
+                    android:textAllCaps="true"
+                    android:layout_margin="@dimen/mar_5"
+                    android:textColor="@color/textBlack"
+                    android:textSize="@dimen/txt_16"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ans_e_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_16"
+                    android:textStyle="bold"
+                    android:layout_margin="@dimen/mar_5"
+                    android:gravity="start|center"
+                    android:paddingLeft="@dimen/mar_10"                    android:textAllCaps="true"
+                    android:text="ddddddddbbddd"
+                    android:textColor="@color/secondaryColor"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/f_ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/mar_5"
+                android:background="@drawable/rect_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center"
+                    android:text="F"
+                    android:textAllCaps="true"
+                    android:textColor="@color/textBlack"
+                    android:textSize="@dimen/txt_16"
+                    android:layout_margin="@dimen/mar_5"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ans_f_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_16"
+                    android:textStyle="bold"
+                    android:gravity="start|center"
+                    android:layout_margin="@dimen/mar_5"
+                    android:paddingLeft="@dimen/mar_10"
+                    android:textAllCaps="true"
+                    android:text=""
+                    android:textColor="@color/secondaryColor"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

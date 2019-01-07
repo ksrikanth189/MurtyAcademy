@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:title="ABOUT US"/>
+        <item
+            android:id="@+id/nav_category"
+            android:title="Question Paper"/>
+
+        <item
+            android:id="@+id/nav_online_exam"
+            android:title="Online Exam"/>
+
+        <item
+            android:id="@+id/nav_my_papers"
+            android:title="My Papers"/>
+
+
+        <item
+            android:id="@+id/nav_testimonals"
+            android:title="Testimonials"/>
+        <item
+            android:id="@+id/nav_termscondition"
+            android:title="Terms and Conditions"/>
+
+        <item
+            android:id="@+id/nav_contact_us"
+            android:title="CONTACT US"/>
+        <item
+            android:id="@+id/nav_share_link"
+            android:title="SHARE LINK"/>
+
+    </group>
+
+</menu>

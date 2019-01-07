@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Layout_WMHW"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        android:paddingLeft="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            style="@style/ToolBarLeftImg"
+            android:backgroundTint="@color/txt_white"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/title_txt"
+            style="@style/ToolBarTitle"
+            android:text="@string/app_name"
+            android:layout_marginRight="@dimen/mar_10"/>
+
+        <ImageView
+            android:id="@+id/home_img"
+            style="@style/ToolBarRightImg"
+            android:layout_marginRight="@dimen/mar_16"
+            android:src="@drawable/logout_15"
+            android:background="@color/textWhite"
+            android:visibility="gone"/>
+
+        <FrameLayout  style="@style/ToolBarRightImg"
+            android:visibility="gone"
+            android:id="@+id/sync_frame"
+            android:layout_marginRight="@dimen/mar_16">
+
+
+            <ImageView
+                android:id="@+id/sync_data"
+                style="@style/ToolBarRightImg"
+                android:visibility="visible"
+                android:background="@android:drawable/ic_popup_sync"/>
+            <TextView
+                android:id="@+id/cart_value"
+                style="@style/ToolBarRightImg"
+                android:textColor="@color/txt_heading"
+                android:gravity="center"
+                android:textSize="@dimen/txt_9"
+                android:paddingLeft="@dimen/mar_2"
+                android:visibility="gone"/>
+        </FrameLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+</android.support.design.widget.AppBarLayout>
